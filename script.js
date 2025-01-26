@@ -1,4 +1,4 @@
-function downloadIDCard() {
+function downloadIdCard() {
     html2canvas(document.querySelector("#idCard")).then(canvas => {
       let link = document.createElement("a");
       link.download = "id_card.png";
